@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(./dark-gradient-background-with-copy-space_53876-99548.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: white;
+    line-height: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.main {
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 100px;
+
+}
+.content{
+    margin: 30px AUTO;
+    text-align: justify;
+}
+img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color:red;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 20px 90px;
+    background-color:rgba(168, 7, 117, 0.995);
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
